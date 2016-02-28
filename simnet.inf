@@ -1,0 +1,276 @@
+;-------------------------------------------------------------------------------
+; QCNET.INF
+;
+; SimTech Wireless Network Device
+;
+; Copyright (c) 2010 SimTech Inc.  All rights reserved.
+
+
+[version]
+Signature   = "$Windows NT$"
+Class       = Net
+ClassGUID   = {4d36e972-e325-11ce-bfc1-08002be10318}
+Provider    = %SIMTECH%
+DriverVer   = 11/30/2010,1.0.5.5
+Catalogfile = simusbnet.cat
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[SourceDisksNames]
+  1000 = %SimSrcDisk%,"",,
+
+[SourceDisksFiles]
+  simusbnet.sys = 1000
+
+[Manufacturer]
+%SIMTECH% = SIMTECH, NTia64, NTamd64, NTamd64.7
+
+[SIMTECH]
+%simwwan.DeviceDesc%    = simwwan.ndi, USB\VID_05C6&PID_7000&MI_00
+%simwwan.DeviceDesc7001%    = simwwan.ndi, USB\VID_05C6&PID_7001&MI_01
+%simwwan.DeviceDesc7002%    = simwwan.ndi, USB\VID_05C6&PID_7002&MI_01
+%simwwan.DeviceDesc71011%    = simwwan.ndi, USB\VID_05C6&PID_7101&MI_01
+%simwwan.DeviceDesc71012%    = simwwan.ndi, USB\VID_05C6&PID_7101&MI_02
+%simwwan.DeviceDesc71013%    = simwwan.ndi, USB\VID_05C6&PID_7101&MI_03
+%simwwan.DeviceDesc71021%    = simwwan.ndi, USB\VID_05C6&PID_7102&MI_01
+%simwwan.DeviceDesc71022%    = simwwan.ndi, USB\VID_05C6&PID_7102&MI_02
+%simwwan.DeviceDesc71023%    = simwwan.ndi, USB\VID_05C6&PID_7102&MI_03
+%simwwan.DeviceDesc80007%    = simwwan.ndi, USB\VID_05C6&PID_8000&MI_07
+%simwwan.DeviceDesc80016%    = simwwan.ndi, USB\VID_05C6&PID_8001&MI_06
+;;Simtech USB device
+%simwwan.DeviceDesc90004%    = simwwan.ndi, USB\VID_05C6&PID_9000&MI_04
+
+%simwwan.DeviceDesc90005%    = simwwan.ndi, USB\VID_05C6&PID_9000&MI_05
+%simwwan.DeviceDesc90013%    = simwwan.ndi, USB\VID_05C6&PID_9001&MI_03
+%simwwan.DeviceDesc90034%    = simwwan.ndi, USB\VID_05C6&PID_9003&MI_04
+%simwwan.DeviceDesc90052%    = simwwan.ndi, USB\VID_05C6&PID_9005&MI_02
+%simwwan.DeviceDesc900A4%    = simwwan.ndi, USB\VID_05C6&PID_900A&MI_04
+%simwwan.DeviceDesc900B2%    = simwwan.ndi, USB\VID_05C6&PID_900B&MI_02
+%simwwan.DeviceDesc900C4%    = simwwan.ndi, USB\VID_05C6&PID_900C&MI_04
+%simwwan.DeviceDesc900C5%    = simwwan.ndi, USB\VID_05C6&PID_900C&MI_05
+%simwwan.DeviceDesc900C6%    = simwwan.ndi, USB\VID_05C6&PID_900C&MI_06
+%simwwan.DeviceDesc900D5%    = simwwan.ndi, USB\VID_05C6&PID_900D&MI_05
+%simwwan.DeviceDesc900F3%    = simwwan.ndi, USB\VID_05C6&PID_900F&MI_03
+%simwwan.DeviceDesc900F4%    = simwwan.ndi, USB\VID_05C6&PID_900F&MI_04
+%simwwan.DeviceDesc900F5%    = simwwan.ndi, USB\VID_05C6&PID_900F&MI_05
+%simwwan.DeviceDesc90104%    = simwwan.ndi, USB\VID_05C6&PID_9010&MI_04
+%simwwan.DeviceDesc90105%    = simwwan.ndi, USB\VID_05C6&PID_9010&MI_05
+%simwwan.DeviceDesc90113%    = simwwan.ndi, USB\VID_05C6&PID_9011&MI_03
+%simwwan.DeviceDesc90114%    = simwwan.ndi, USB\VID_05C6&PID_9011&MI_04
+%simwwan.DeviceDesc90211%    = simwwan.ndi, USB\VID_05C6&PID_9021&MI_01
+%simwwan.DeviceDesc90222%    = simwwan.ndi, USB\VID_05C6&PID_9022&MI_02
+%simwwan.DeviceDesc90254%    = simwwan.ndi, USB\VID_05C6&PID_9025&MI_04
+%simwwan.DeviceDesc90263%    = simwwan.ndi, USB\VID_05C6&PID_9026&MI_03
+%simwwan.DeviceDesc902E5%    = simwwan.ndi, USB\VID_05C6&PID_902E&MI_05
+%simwwan.DeviceDesc90315%    = simwwan.ndi, USB\VID_05C6&PID_9031&MI_05
+%simwwan.DeviceDesc90324%    = simwwan.ndi, USB\VID_05C6&PID_9032&MI_04
+%simwwan.DeviceDesc90333%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_03
+%simwwan.DeviceDesc90334%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_04
+%simwwan.DeviceDesc90335%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_05
+%simwwan.DeviceDesc90336%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_06
+
+[SIMTECH.NTamd64.7]
+%simwwan.DeviceDesc%    = simwwan.ndi, USB\VID_05C6&PID_7000&MI_00
+%simwwan.DeviceDesc7001%    = simwwan.ndi, USB\VID_05C6&PID_7001&MI_01
+%simwwan.DeviceDesc7002%    = simwwan.ndi, USB\VID_05C6&PID_7002&MI_01
+%simwwan.DeviceDesc71011%    = simwwan.ndi, USB\VID_05C6&PID_7101&MI_01
+%simwwan.DeviceDesc71012%    = simwwan.ndi, USB\VID_05C6&PID_7101&MI_02
+%simwwan.DeviceDesc71013%    = simwwan.ndi, USB\VID_05C6&PID_7101&MI_03
+%simwwan.DeviceDesc71021%    = simwwan.ndi, USB\VID_05C6&PID_7102&MI_01
+%simwwan.DeviceDesc71022%    = simwwan.ndi, USB\VID_05C6&PID_7102&MI_02
+%simwwan.DeviceDesc71023%    = simwwan.ndi, USB\VID_05C6&PID_7102&MI_03
+%simwwan.DeviceDesc80007%    = simwwan.ndi, USB\VID_05C6&PID_8000&MI_07
+%simwwan.DeviceDesc80016%    = simwwan.ndi, USB\VID_05C6&PID_8001&MI_06
+;;Simtech USB device
+%simwwan.DeviceDesc90004%    = simwwan.ndi, USB\VID_05C6&PID_9000&MI_04
+
+%simwwan.DeviceDesc90005%    = simwwan.ndi, USB\VID_05C6&PID_9000&MI_05
+%simwwan.DeviceDesc90013%    = simwwan.ndi, USB\VID_05C6&PID_9001&MI_03
+%simwwan.DeviceDesc90034%    = simwwan.ndi, USB\VID_05C6&PID_9003&MI_04
+%simwwan.DeviceDesc90052%    = simwwan.ndi, USB\VID_05C6&PID_9005&MI_02
+%simwwan.DeviceDesc900A4%    = simwwan.ndi, USB\VID_05C6&PID_900A&MI_04
+%simwwan.DeviceDesc900B2%    = simwwan.ndi, USB\VID_05C6&PID_900B&MI_02
+%simwwan.DeviceDesc900C4%    = simwwan.ndi, USB\VID_05C6&PID_900C&MI_04
+%simwwan.DeviceDesc900C5%    = simwwan.ndi, USB\VID_05C6&PID_900C&MI_05
+%simwwan.DeviceDesc900C6%    = simwwan.ndi, USB\VID_05C6&PID_900C&MI_06
+%simwwan.DeviceDesc900D5%    = simwwan.ndi, USB\VID_05C6&PID_900D&MI_05
+%simwwan.DeviceDesc900F3%    = simwwan.ndi, USB\VID_05C6&PID_900F&MI_03
+%simwwan.DeviceDesc900F4%    = simwwan.ndi, USB\VID_05C6&PID_900F&MI_04
+%simwwan.DeviceDesc900F5%    = simwwan.ndi, USB\VID_05C6&PID_900F&MI_05
+%simwwan.DeviceDesc90104%    = simwwan.ndi, USB\VID_05C6&PID_9010&MI_04
+%simwwan.DeviceDesc90105%    = simwwan.ndi, USB\VID_05C6&PID_9010&MI_05
+%simwwan.DeviceDesc90113%    = simwwan.ndi, USB\VID_05C6&PID_9011&MI_03
+%simwwan.DeviceDesc90114%    = simwwan.ndi, USB\VID_05C6&PID_9011&MI_04
+%simwwan.DeviceDesc90211%    = simwwan.ndi, USB\VID_05C6&PID_9021&MI_01
+%simwwan.DeviceDesc90222%    = simwwan.ndi, USB\VID_05C6&PID_9022&MI_02
+%simwwan.DeviceDesc90254%    = simwwan.ndi, USB\VID_05C6&PID_9025&MI_04
+%simwwan.DeviceDesc90263%    = simwwan.ndi, USB\VID_05C6&PID_9026&MI_03
+%simwwan.DeviceDesc902E5%    = simwwan.ndi, USB\VID_05C6&PID_902E&MI_05
+%simwwan.DeviceDesc90315%    = simwwan.ndi, USB\VID_05C6&PID_9031&MI_05
+%simwwan.DeviceDesc90324%    = simwwan.ndi, USB\VID_05C6&PID_9032&MI_04
+%simwwan.DeviceDesc90333%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_03
+%simwwan.DeviceDesc90334%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_04
+%simwwan.DeviceDesc90335%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_05
+%simwwan.DeviceDesc90336%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_06
+
+[SIMTECH.NTamd64.7]
+%simwwan.DeviceDesc%    = simwwan.ndi, USB\VID_05C6&PID_7000&MI_00
+%simwwan.DeviceDesc7001%    = simwwan.ndi, USB\VID_05C6&PID_7001&MI_01
+%simwwan.DeviceDesc7002%    = simwwan.ndi, USB\VID_05C6&PID_7002&MI_01
+%simwwan.DeviceDesc71011%    = simwwan.ndi, USB\VID_05C6&PID_7101&MI_01
+%simwwan.DeviceDesc71012%    = simwwan.ndi, USB\VID_05C6&PID_7101&MI_02
+%simwwan.DeviceDesc71013%    = simwwan.ndi, USB\VID_05C6&PID_7101&MI_03
+%simwwan.DeviceDesc71021%    = simwwan.ndi, USB\VID_05C6&PID_7102&MI_01
+%simwwan.DeviceDesc71022%    = simwwan.ndi, USB\VID_05C6&PID_7102&MI_02
+%simwwan.DeviceDesc71023%    = simwwan.ndi, USB\VID_05C6&PID_7102&MI_03
+%simwwan.DeviceDesc80007%    = simwwan.ndi, USB\VID_05C6&PID_8000&MI_07
+%simwwan.DeviceDesc80016%    = simwwan.ndi, USB\VID_05C6&PID_8001&MI_06
+;;Simtech USB device
+%simwwan.DeviceDesc90004%    = simwwan.ndi, USB\VID_05C6&PID_9000&MI_04
+
+%simwwan.DeviceDesc90005%    = simwwan.ndi, USB\VID_05C6&PID_9000&MI_05
+%simwwan.DeviceDesc90013%    = simwwan.ndi, USB\VID_05C6&PID_9001&MI_03
+%simwwan.DeviceDesc90034%    = simwwan.ndi, USB\VID_05C6&PID_9003&MI_04
+%simwwan.DeviceDesc90052%    = simwwan.ndi, USB\VID_05C6&PID_9005&MI_02
+%simwwan.DeviceDesc900A4%    = simwwan.ndi, USB\VID_05C6&PID_900A&MI_04
+%simwwan.DeviceDesc900B2%    = simwwan.ndi, USB\VID_05C6&PID_900B&MI_02
+%simwwan.DeviceDesc900C4%    = simwwan.ndi, USB\VID_05C6&PID_900C&MI_04
+%simwwan.DeviceDesc900C5%    = simwwan.ndi, USB\VID_05C6&PID_900C&MI_05
+%simwwan.DeviceDesc900C6%    = simwwan.ndi, USB\VID_05C6&PID_900C&MI_06
+%simwwan.DeviceDesc900D5%    = simwwan.ndi, USB\VID_05C6&PID_900D&MI_05
+%simwwan.DeviceDesc900F3%    = simwwan.ndi, USB\VID_05C6&PID_900F&MI_03
+%simwwan.DeviceDesc900F4%    = simwwan.ndi, USB\VID_05C6&PID_900F&MI_04
+%simwwan.DeviceDesc900F5%    = simwwan.ndi, USB\VID_05C6&PID_900F&MI_05
+%simwwan.DeviceDesc90104%    = simwwan.ndi, USB\VID_05C6&PID_9010&MI_04
+%simwwan.DeviceDesc90105%    = simwwan.ndi, USB\VID_05C6&PID_9010&MI_05
+%simwwan.DeviceDesc90113%    = simwwan.ndi, USB\VID_05C6&PID_9011&MI_03
+%simwwan.DeviceDesc90114%    = simwwan.ndi, USB\VID_05C6&PID_9011&MI_04
+%simwwan.DeviceDesc90211%    = simwwan.ndi, USB\VID_05C6&PID_9021&MI_01
+%simwwan.DeviceDesc90222%    = simwwan.ndi, USB\VID_05C6&PID_9022&MI_02
+%simwwan.DeviceDesc90254%    = simwwan.ndi, USB\VID_05C6&PID_9025&MI_04
+%simwwan.DeviceDesc90263%    = simwwan.ndi, USB\VID_05C6&PID_9026&MI_03
+%simwwan.DeviceDesc902E5%    = simwwan.ndi, USB\VID_05C6&PID_902E&MI_05
+%simwwan.DeviceDesc90315%    = simwwan.ndi, USB\VID_05C6&PID_9031&MI_05
+%simwwan.DeviceDesc90324%    = simwwan.ndi, USB\VID_05C6&PID_9032&MI_04
+%simwwan.DeviceDesc90333%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_03
+%simwwan.DeviceDesc90334%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_04
+%simwwan.DeviceDesc90335%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_05
+%simwwan.DeviceDesc90336%    = simwwan.ndi, USB\VID_05C6&PID_9033&MI_06
+
+;-------------------------------------------------------------------------------
+; Virtual Ethernet Adapter
+;
+[simwwan.ndi]
+Characteristics = 0x4 ; NCF_PHYSICAL
+BusType         = 15  ; PNPBus
+AddReg          = qcwwan.Reg
+CopyFiles       = qcwwan.CopyFiles
+
+[simwwan.ndi.Services]
+AddService      = qcusbnet, 2, qcwwan.Service, qcwwan.EventLog
+
+;-----------------------------------------------------------------------------
+; Virtual Miniport Common
+;
+[qcwwan.Reg]
+HKR,    ,                         BusNumber,           0, "0"
+HKR, Ndi,                         Service,             0, "qcusbnet"
+HKR, Ndi\Interfaces,              UpperRange,          0, "ndis5"
+HKR, Ndi\Interfaces,              LowerRange,          0, "ethernet"
+; HKR, Ndi\params\VlanID,     ParamDesc,       0, %VlanID%
+; HKR, Ndi\params\VlanID,     default,         0, "777"
+; HKR, Ndi\params\VlanID,     type,            0, "long"
+; HKR, Ndi\params\VlanID,     min,             0, "0"
+; HKR, Ndi\params\VlanID,     max,             0, "4095"
+; HKR, Ndi\params\VlanID,     step,            0, "1"
+; HKR, Ndi\params\VlanID,     base,            0, "10"
+
+;-----------------------------------------------------------------------------
+; Driver and Service Section
+;
+[qcwwan.CopyFiles]
+simusbnet.sys,,,2
+
+[qcwwan.Service]
+DisplayName     = %simwwan.Service.DispName%
+ServiceType     = 1 ;%SERVICE_KERNEL_DRIVER%
+StartType       = 3 ;%SERVICE_DEMAND_START%
+ErrorControl    = 1 ;%SERVICE_ERROR_NORMAL%
+ServiceBinary   = %12%\simusbnet.sys
+LoadOrderGroup  = NDIS
+AddReg          = TextModeFlags.Reg
+
+[qcwwan.EventLog]
+AddReg = qcwwan.AddEventLog.Reg
+
+[qcwwan.AddEventLog.Reg]
+HKR, , EventMessageFile, 0x00020000, "%%SystemRoot%%\System32\netevent.dll"
+HKR, , TypesSupported,   0x00010001, 7
+
+[TextModeFlags.Reg]
+HKR, , TextModeFlags,    0x00010001, 0x0001
+
+[SourceDisksNames]
+1 = %DiskId1%,,,""
+
+[SourceDisksFiles]
+simusbnet.sys  = 1,,
+
+;-----------------------------------------------------------------------------
+; DestinationDirs
+;
+[DestinationDirs]
+qcwwan.CopyFiles = 12
+
+;-----------------------------------------------------------------------------
+; Localizable Strings
+;
+[Strings]
+SimSrcDisk = "SIMTECH USB Driver Disk"
+SIMTECH                       = "SimTech"
+simwwan.DeviceDesc           = "SimTech Wireless Ethernet Adapter"
+simwwan.DeviceDesc7001       = "SimTech Wireless Ethernet Adapter 7001"
+simwwan.DeviceDesc7002       = "SimTech Wireless Ethernet Adapter 7002"
+simwwan.DeviceDesc71011      = "SimTech Wireless Ethernet Adapter 7101-1"
+simwwan.DeviceDesc71012      = "SimTech Wireless Ethernet Adapter 7101-2"
+simwwan.DeviceDesc71013      = "SimTech Wireless Ethernet Adapter 7101-3"
+simwwan.DeviceDesc71021      = "SimTech Wireless Ethernet Adapter 7102-1"
+simwwan.DeviceDesc71022      = "SimTech Wireless Ethernet Adapter 7102-2"
+simwwan.DeviceDesc71023      = "SimTech Wireless Ethernet Adapter 7102-3"
+simwwan.DeviceDesc80007      = "SimTech Wireless HS-USB Ethernet Adapter 8000"
+simwwan.DeviceDesc80016      = "SimTech Wireless HS-USB Ethernet Adapter 8001"
+;;Simtech USB device
+simwwan.DeviceDesc90004      = "SimTech Wireless HS-USB Ethernet Adapter 9000"
+
+simwwan.DeviceDesc90005      = "SimTech Wireless HS-USB Ethernet Adapter 9000"
+simwwan.DeviceDesc90013      = "SimTech Wireless HS-USB Ethernet Adapter 9001"
+simwwan.DeviceDesc90034      = "SimTech Wireless HS-USB Ethernet Adapter 9003"
+simwwan.DeviceDesc90052      = "SimTech Wireless HS-USB Ethernet Adapter 9005"
+simwwan.DeviceDesc900A4      = "SimTech Wireless HS-USB Ethernet Adapter 900A"
+simwwan.DeviceDesc900B2      = "SimTech Wireless HS-USB Ethernet Adapter 900B"
+simwwan.DeviceDesc900C4      = "SimTech Wireless HS-USB Ethernet Adapter 900C-4"
+simwwan.DeviceDesc900C5      = "SimTech Wireless HS-USB Ethernet Adapter 900C-5"
+simwwan.DeviceDesc900C6      = "SimTech Wireless HS-USB Ethernet Adapter 900C-6"
+simwwan.DeviceDesc900D5      = "SimTech Wireless HS-USB Ethernet Adapter 900D-5"
+simwwan.DeviceDesc900F3      = "SimTech Wireless HS-USB Ethernet Adapter 900F-3"
+simwwan.DeviceDesc900F4      = "SimTech Wireless HS-USB Ethernet Adapter 900F-4"
+simwwan.DeviceDesc900F5      = "SimTech Wireless HS-USB Ethernet Adapter 900F-5"
+simwwan.DeviceDesc90104      = "SimTech Wireless HS-USB Ethernet Adapter 9010-4"
+simwwan.DeviceDesc90105      = "SimTech Wireless HS-USB Ethernet Adapter 9010-5"
+simwwan.DeviceDesc90113      = "SimTech Wireless HS-USB Ethernet Adapter 9011-3"
+simwwan.DeviceDesc90114      = "SimTech Wireless HS-USB Ethernet Adapter 9011-4"
+simwwan.DeviceDesc90211      = "SimTech Wireless HS-USB Ethernet Adapter 9021"
+simwwan.DeviceDesc90222      = "SimTech Wireless HS-USB Ethernet Adapter 9022"
+simwwan.DeviceDesc90254      = "SimTech Wireless HS-USB Ethernet Adapter 9025"
+simwwan.DeviceDesc90263      = "SimTech Wireless HS-USB Ethernet Adapter 9026"
+simwwan.DeviceDesc902E5      = "SimTech Wireless HS-USB Ethernet Adapter 902E"
+simwwan.DeviceDesc90315      = "SimTech Wireless HS-USB Ethernet Adapter 9031"
+simwwan.DeviceDesc90324      = "SimTech Wireless HS-USB Ethernet Adapter 9032"
+simwwan.DeviceDesc90333      = "SimTech Wireless HS-USB Ethernet Adapter 9033-3"
+simwwan.DeviceDesc90334      = "SimTech Wireless HS-USB Ethernet Adapter 9033-4"
+simwwan.DeviceDesc90335      = "SimTech Wireless HS-USB Ethernet Adapter 9033-5"
+simwwan.DeviceDesc90336      = "SimTech Wireless HS-USB Ethernet Adapter 9033-6"
+
+simwwan.Service.DispName     = "SimTech USB-NDIS miniport"
+DiskId1 = "SimTech USB-NDIS Miniport Device Installation Disk #1"
